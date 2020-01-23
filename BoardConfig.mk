@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/lenovo/zippo
+DEVICE_PATH := device/lenovo/heart
 
 # Architecture
 TARGET_ARCH := arm64
@@ -63,7 +63,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
 #TARGET_USE_SDCLANG := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := zippo
+TARGET_OTA_ASSERT_DEVICE := heart
 
 # Avb
 BOARD_AVB_ENABLE := true

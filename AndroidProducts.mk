@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_zippo.mk
+    $(LOCAL_DIR)/omni_heart.mk

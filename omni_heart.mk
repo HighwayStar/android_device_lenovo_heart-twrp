@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := zippo
+PRODUCT_RELEASE_NAME := heart
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -23,16 +23,16 @@ $(call inherit-product, build/target/product/embedded.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := zippo
-PRODUCT_NAME := omni_zippo
+PRODUCT_DEVICE := heart
+PRODUCT_NAME := omni_heart
 PRODUCT_BRAND := Lenovo
-PRODUCT_MODEL := Lenovo L78051
+PRODUCT_MODEL := Lenovo L78032
 PRODUCT_MANUFACTURER := Lenovo
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=zippo \
-    BUILD_PRODUCT=zippo \
-    TARGET_DEVICE=zippo
+    PRODUCT_NAME=heart \
+    BUILD_PRODUCT=heart \
+    TARGET_DEVICE=heart
 
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \
